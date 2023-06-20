@@ -1,0 +1,25 @@
+this file contains it s additional information on the compiling and programming side of the app.
+
+
+1) Container docker image: (from ChatGPT) Based on the provided options, if you want to make your Android code available for others to easily download and install from a GitHub repository, the most suitable choice would be to use the "Containers" registry.
+
+By using the "Containers" registry on GitHub Packages, you can publish Docker images that contain your Android application code. This allows users to easily retrieve the image and run it on their own systems, which can include Android devices or emulators.
+
+Here's an example of how you can leverage the "Containers" registry for publishing your Android code:
+
+1. Build a Docker image: Create a Dockerfile that includes the necessary steps to package your Android code into a Docker image. This can involve installing the necessary dependencies, compiling the code, and setting up the runtime environment.
+
+2. Publish the Docker image to GitHub Packages: Once you have built the Docker image, you can publish it to the "Containers" registry on GitHub Packages. This will make the image accessible to others who have access to the repository.
+
+3. Documentation: In your project's README or documentation, provide instructions on how users can retrieve and run the Docker image. Include any specific commands or configurations needed to set up and run the Android application using the Docker image.
+
+By following these steps, users will be able to download the Docker image from the GitHub repository and run it on their systems, simplifying the process of installing and testing your Android code.
+
+Remember to provide clear instructions and any necessary prerequisites for users to successfully use the Docker image and run your Android application.
+
+Please note that the "Containers" registry is primarily focused on containerized applications, so it may not be the most conventional way to distribute and install Android applications. However, it can be a viable option if you specifically want to leverage Docker and GitHub Packages for sharing your code.
+
+
+
+Okay so that was enough for me to do it. Here is how you install it via container onto Android without  Linux prompt:
+
