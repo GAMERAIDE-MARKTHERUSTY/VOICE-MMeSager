@@ -1,0 +1,84 @@
+# Voice MMeSenger
+
+Voice MMeSenger is an Android communication app developed to provide a convenient way to send voice messages as an alternative to text messages. It allows users to record and send audio messages, manage conversations, and communicate using voice.
+
+## Features
+
+- Record and send voice messages
+- Organize conversations with a chronological index
+- Tap on a message to view the conversation history
+- Create new conversations with phone numbers
+- Display contact names for matched phone numbers from the phone book
+- Text messaging alongside voice messages
+- Play audio messages within conversations
+- Optional confirmation receipts for message delivery
+
+## Technologies Used
+
+- Kotlin programming language
+- Android Studio IDE
+
+## How to Compile and Install
+
+To compile the app and create an APK file for installation on Android devices, follow these steps:
+
+1. Install Android Studio: [Download Android Studio](https://developer.android.com/studio) and follow the installation instructions.
+
+2. Clone the repository: Use Git or download the source code from the repository.
+
+$ git clone https://github.com/your-username/voice-mmesenger.git
+
+3. Open the project: Launch Android Studio and select "Open an existing Android Studio project." Browse to the cloned project directory and select it.
+
+4. Build the project: Let Android Studio sync the project and build the necessary files.
+
+5. Select the desired build variant: In the "Build Variants" tab, choose the desired build variant, such as "release" or "debug."
+
+6. Build the APK: Go to "Build" > "Build Bundle(s) / APK(s)" > "Build APK(s)." Android Studio will compile the code and generate an APK file.
+
+7. Locate the APK: After the build process completes, the generated APK file can be found in the project's `app/build/outputs/apk/` directory.
+
+8. Transfer and Install: Transfer the APK file to an Android device and install it by opening the file and following the on-screen instructions.
+
+Please note that you may need to configure the project settings, such as SDK versions, dependencies, or other required libraries, as per your development environment.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Feel free to explore, modify, and use the code in accordance with the license terms.
+
+3. Open the project: Launch Android Studio and select "Open an existing Android Studio project." Browse to the cloned project directory and select it.
+
+4. Build the project: Let Android Studio sync the project and build the necessary files.
+
+5. Select the desired build variant: In the "Build Variants" tab, choose the desired build variant, such as "release" or "debug."
+
+6. Build the APK: Go to "Build" > "Build Bundle(s) / APK(s)" > "Build APK(s)." Android Studio will compile the code and generate an APK file.
+
+7. Locate the APK: After the build process completes, the generated APK file can be found in the project's `app/build/outputs/apk/` directory.
+
+8. Transfer and Install: Transfer the APK file to an Android device and install it by opening the file and following the on-screen instructions.
+
+Please note that you may need to configure the project settings, such as SDK versions, dependencies, or other required libraries, as per your development environment.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Feel free to explore, modify, and use the code in accordance with the license terms.
+
+## Attribution and Disclaimer
+
+This project includes code created by MarkTheRusty (Mark Dailey) and ChatGPT. The original code, along with any modifications made by the authors and collaborators, is licensed under the MIT License.
+
+If you choose to modify or build upon this codebase, we kindly request that you provide attribution by citing the involvement of MarkTheRusty AKA Mark Dailey, ChatGPT, and any additional authors or collaborators.
+
+While efforts have been made to ensure the accuracy and reliability of the code, it is important to note that the authors and contributors are not responsible for any damages or issues that may arise from the use of this code, especially for unintended purposes. The application is provided as-is, without any warranty or guarantee of its functionality or suitability for any particular purpose.
+
+Users and developers are encouraged to exercise normal diligence and discretion when using and modifying this code. It is your responsibility to review and adhere to any relevant laws, regulations, and policies that may govern the use of this application.
+
+As this is a free app, no financial transactions or monetary obligations are associated with its use or distribution.
+
+Thank you for understanding and respecting these terhing that we request is that you give credifile fileand Mark Daley aka MarkTheRusty directed 
+chat GPT to produce this code and assist with troubleshooting in 
