@@ -183,6 +183,33 @@ _body", "")
             backButton.visibility = View.VISIBLE
         }
     }
+          private fun stopRecording() {
+    mediaRecorder?.apply {
+        stop()
+        release()
+    }
+    mediaRecorder = null
+    Toast.makeText(this, "Recording stopped", Toast.LENGTH_SHORT).show()
+
+    // Retrieve the recipient phone number from the conversation
+    val recipientPhoneNumber = if (currentIndex >= 0 && currentIndex < messageList.size) {
+        messageList[currentIndex]
+    } else {
+        "<recipient_phone_number>"
+    }
+
+    // Format the recipient phone number as needed
+    val formattedRecipientPhoneNumber = formatPhoneNumber(recipientPhoneNumber)
+
+    // Send the recorded audio as an MMS message to the recipient phone number
+    val intent = Intent(Intent.ACTION_SEND)
+    intent.putExtra("address", formattedRecipientPhoneNumber)
+    intent.putExtra("sms_body", "")
+    intent.putExtra(Intent.EXTRA_STREAM, Uri.parse("file://$outputFile"))
+    intent.type = "audio/3gp"
+    startActivity(intent)
+}
+
 
     private fun showNewConversationDialog() {
         val builder = AlertDialog.Builder(this)
